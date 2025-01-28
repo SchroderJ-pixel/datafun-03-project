@@ -1,13 +1,21 @@
 # datafun-03-project
-Module3- Working with Data
+Module 3 - Working with Data
 
-Clone repository from GitHub git clone https://github.com/SchroderJ-pixel/datafun-03-project
+## Setup Instructions
 
-Set Terminal to project folder
+1. Clone the repository from GitHub:
+   ```bash
+   git clone https://github.com/SchroderJ-pixel/datafun-03-project
+
+2. Set Terminal to project folder
+    ```bash
+    cd C:\Projects\datafun-03-project
 
 Creat virtual environment py -m venv .venv
+    py -m venv .venv
 
 Activate virtual environment .venv\Scripts\activate
+    .venv\Scripts\activate  # For Windows
 
 Select virtual environment for Python interpreter Ctrl + Shift + P Python: Select Interpreter .venv
 
