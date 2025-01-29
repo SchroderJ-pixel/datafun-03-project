@@ -22,3 +22,9 @@ Select virtual environment for Python interpreter Ctrl + Shift + P Python: Selec
 Update pip py -m pip install --upgrade pip setuptools wheel
 
 Install dependencies py -m pip install -r requirements.txt
+
+********
+
+Save the example project to computer, then copy and paste the example_get files, example_process, and util_logger
+
+
