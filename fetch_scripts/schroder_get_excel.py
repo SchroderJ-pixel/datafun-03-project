@@ -25,7 +25,7 @@ def fetch_excel_file(folder_name: str, filename: str, url: str) -> None:
         logger.info(f"Fetching Excel data from {url}...")
         response = requests.get(url)
         response.raise_for_status()  # Check for any errors
-        write_excel_file(folder_name, filename, response.content)
+        write_excel_file(folder_name, filename, response.content)  # Use content for binary data
         logger.info(f"SUCCESS: Excel file fetched and saved as {filename}")
     except requests.exceptions.HTTPError as http_err:
         logger.error(f"HTTP error occurred: {http_err}")
@@ -39,7 +39,7 @@ def write_excel_file(folder_name: str, filename: str, file_data: bytes) -> None:
     Args:
         folder_name (str): Name of the folder to save the file.
         filename (str): Name of the output file.
-        file_data (bytes): The binary content of the Excel file.
+        file_data (bytes): Excel content as bytes.
 
     Returns:
         None
@@ -48,7 +48,7 @@ def write_excel_file(folder_name: str, filename: str, file_data: bytes) -> None:
     try:
         logger.info(f"Writing Excel data to {file_path}...")
         file_path.parent.mkdir(parents=True, exist_ok=True)
-        with file_path.open('wb') as file:  # Write in binary mode
+        with file_path.open('wb') as file:  # Open file in binary mode
             file.write(file_data)
         logger.info(f"SUCCESS: Excel data written to {file_path}")
     except IOError as io_err:
@@ -58,9 +58,9 @@ def main():
     """
     Main function to demonstrate fetching Excel data.
     """
-    excel_url = "https://github.com/shadsluiter/ExcelExamples/raw/master/Cell%20Phone%20Plans%20compared.xlsx"
+    excel_url = "https://github.com/Rwt1998/Excel/blob/master/IMDB-Movie-Database.xlsx?raw=true"  # Updated URL
     logger.info("Starting Excel fetch demonstration...")
-    fetch_excel_file(fetched_folder_name, "cell_phone_plans.xlsx", excel_url)
+    fetch_excel_file(fetched_folder_name, "IMDB-Movie-Database.xlsx", excel_url)  # Updated filename
 
 if __name__ == '__main__':
     main()
