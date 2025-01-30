@@ -28,6 +28,7 @@ Install dependencies py -m pip install -r requirements.txt
 Save the example project to computer, then copy and paste the example_get files, example_process, and util_logger
 
 ********
+Step 3:
 This script (schroder_get_csv.py) fetches the ArcticSeals CSV file from GitHub and saves it to the data folder. The script performs the following actions:
 
     Fetches the CSV file from the specified GitHub URL.
@@ -37,6 +38,21 @@ This script (schroder_get_excel.py) fetches an Excel file containing cell phone 
 
     Fetches the Excel file from the specified GitHub URL.
     Saves the file as cell_phone_plans.xlsx in the data folder, which is located outside the fetch_scripts directory.
+
+This script (`schroder_get_json.py`) fetches the Pokémon Classic Pokedex JSON file from GitHub and saves it to the data folder. The script performs the following actions:
+
+    Fetches the JSON file from the specified GitHub URL.
+    Saves the file as `pokedex.json` in the data folder, which is located outside the fetch_scripts directory.
+
+
+This script (`schroder_get_text.py`) fetches the Harry Potter text file from GitHub and saves it to the data folder. The script performs the following actions:
+
+    Fetches the text file from the specified GitHub URL.
+    Saves the file as `harry_potter.txt` in the data folder, which is located outside the fetch_scripts directory.
+*******
+Step 4:
+
+
 
 
 
