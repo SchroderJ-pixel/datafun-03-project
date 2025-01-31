@@ -52,6 +52,21 @@ This script (`schroder_get_text.py`) fetches the Harry Potter text file from Git
 *******
 Step 4:
 
+Arctic Seals Data Processing
+I processed the articseals.csv file to calculate the total number of seals and the average seals per entry.
+
+Movie Cleaopatra Data Processing 
+I processed the IMDB-Movie-Database.xlsx to find all the movies named Cleopatra.
+
+Pokemon Type Data Processing:
+I processed the podedex.json to count how many pokemon of each type are in Gen 1.
+
+Harry Potter Data Processing:
+I processed the harry_potter.txt to count how many times the word "Harry" is said in the text. 
+
+Step 5: 
+Update README.md
+
 
 
 

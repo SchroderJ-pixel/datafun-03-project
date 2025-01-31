@@ -38,7 +38,7 @@ def count_word_in_column(file_path: pathlib.Path, column_letter: str, word: str)
 
 def process_excel_file():
     """Read an Excel file, count occurrences of 'GitHub' in a specific column, and save the result."""
-    input_file = pathlib.Path(fetched_folder_name, "test.xlsx")
+    input_file = pathlib.Path(fetched_folder_name, "C:\Projects\datafun-03-project\data\IMDB-Movie-Database.xlsx")
     output_file = pathlib.Path("C:\Projects\datafun-03-project\data_processed", "Movie_Budget.txt")
     name_column = "A"  # Replace with the appropriate column letter
     rev_column = "Q"  # Replace with the appropriate column letter

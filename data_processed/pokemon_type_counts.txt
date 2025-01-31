@@ -1,0 +1,16 @@
+Pokémon Type Counts:
+Grass: 14
+Poison: 33
+Fire: 12
+Flying: 19
+Water: 32
+Bug: 12
+Normal: 24
+Electric: 9
+Ground: 14
+Fighting: 8
+Psychic: 14
+Rock: 11
+Ice: 5
+Ghost: 3
+Dragon: 3
