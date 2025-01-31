@@ -1,0 +1,5 @@
+Total number of seals: 7887
+Average number of seals per entry: 0.52897384305835
+Average species confidence: 0
+Minimum species confidence: 0
+Maximum species confidence: 0
